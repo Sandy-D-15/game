@@ -1,0 +1,49 @@
+* { box-sizing: border-box; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+}
+
+#menu {
+  margin: 20px 0;
+}
+
+select, input[type=button] {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #aaa;
+  color: white;
+  cursor: pointer;
+}
+
+canvas {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#instructions {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#message {
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Maze Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu">
+    <select id="difficulty">
+      <option value="10">Easy</option>
+      <option value="15">Medium</option>
+      <option value="25">Hard</option>
+    </select>
+    <input type="button" id="startBtn" value="Start">
+  </div>
+  <canvas id="mazeCanvas" width="500" height="500"></canvas>
+  <p id="instructions">Use arrow keys to move the key to the house!</p>
+  <div id="message"><h2>You made it!</h2><p id="steps"></p><button onclick="document.getElementById('message').style.display='none'">OK</button></div>
+  <script src="script.js"></script>
+</body>
+</html>
